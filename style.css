@@ -1,0 +1,79 @@
+
+
+html, body {
+    overflow-x: hidden;
+    margin: 0 auto;
+    height: 100%;
+    background-color: rgb(255, 246, 234); 
+}
+
+.header {
+    padding: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    background-image: url(../desk-593327_1280.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.mainContent {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.hName {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pName {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contactContent {
+    display: flex;
+}
+
+.contactItem {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textContent {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    background-image: url(https://media.licdn.com/dms/image/D4E03AQHrREQKkGnMeg/profile-displayphoto-shrink_400_400/0/1692682108557?e=1700697600&v=beta&t=EpZyWdYuFGY1ri6g-U1RHF9wxrp3A037EqdWRQULVlE);
+    width: 370px;
+    height: 400px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.listWrapper {
+    max-width: 370px;
+}
+
+.list {
+    margin: 0 auto;
+    max-width: 370px;
+    color: antiquewhite;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+}
